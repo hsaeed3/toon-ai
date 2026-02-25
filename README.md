@@ -19,6 +19,7 @@ from toon_ai import generate
 
 generate(
     messages="hello! what is 45+45",
+    model="openai/gpt-4o-mini",
     output_type=int,
 )
 """
@@ -43,6 +44,9 @@ client = ToonClient(
 response = client.create(
     # send messages as either strings or OpenAI Chat Completions messages
     messages = "hello! what is 45+45",
+
+    # use any supported litellm model
+    model="ollama/qwen3:latest",
 
     # specify the output type, this can be any of:
     # - primitive types (int, float, bool, str)
