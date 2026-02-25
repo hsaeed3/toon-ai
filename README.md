@@ -1,6 +1,6 @@
 # toon-ai
 
-'Ported'/simplified version of my TOON specific PR to `instructor` as a standalone package, using LiteLLM as the underlying model provider.
+Simple `litellm` client wrapper that utilizes various schema utilities from the `instructor` library to generate structured outputs with LLMs using the TOON (Token Oriented Object Notation) format.
 
 ## Installation
 
