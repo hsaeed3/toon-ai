@@ -10,6 +10,14 @@ Install from source:
 uv add git+https://github.com/hsaeed3/toon-ai.git
 ```
 
+or clone & install:
+
+```bash
+git clone https://github.com/hsaeed3/toon-ai
+
+uv sync
+```
+
 ## Usage
 
 ### QuickStart
