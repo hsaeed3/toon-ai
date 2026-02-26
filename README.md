@@ -49,7 +49,7 @@ client = ToonClient(
 
 
 # generate your structured outputs!
-response = client.create(
+response = client.generate(
     # send messages as either strings or OpenAI Chat Completions messages
     messages = "hello! what is 45+45",
 
